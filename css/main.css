@@ -1,0 +1,107 @@
+/*spacers*/
+.spacer100
+{
+	height:100px;
+}
+
+.spacer50
+{
+	height:50px;
+}
+
+.spacer25
+{
+	height:25px;
+}
+.spacer20
+{
+	height:20px;
+}
+.spacer15
+{
+	height:15px;
+}
+
+h1
+{
+	color: blue;
+}
+
+h3
+{
+	color: green;
+}
+
+h4
+{
+	color: red;
+}
+
+.fishdescription
+{
+	height: 130px;
+}
+
+#map {
+	height: 118px;
+    width: 100%;
+}
+
+
+td, th 
+{
+      width: 5rem;
+      height: 2rem;
+      border: 1px solid #ccc;
+      text-align: center;
+}
+
+th 
+{
+  background: lightblue;
+  border-color: white;
+}
+
+body 
+{
+  padding: 1rem;
+  font-family: Roboto;
+ /* background-image: url("../images/shutterstock_476967942.jpg");
+  background-repeat: no-repeat;*/
+  
+}
+
+p
+{
+	font-family: Roboto;
+}
+
+.table table
+{
+	width: 100%;	
+}
+
+div.col-sm-12.venueheading h1
+{
+	margin-top: 0px;
+}
+#textarea {
+	border: none;
+	overflow: auto;
+	height: 200px;
+	width: 570px;
+	padding : 4px;
+}
+
+#wrapper {
+	border: 1px solid #CCCCCC;
+	overflow: hidden;
+    width: 570px;
+    height: 215px;
+}
+
+div.col-sm-12.venuedirectionsheading h4
+{
+	margin-top: 20px;
+}
+
