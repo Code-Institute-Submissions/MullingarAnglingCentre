@@ -1,4 +1,4 @@
-/*spacers*/
+	/*spacers*/
 .spacer100
 {
 	height:100px;
@@ -13,18 +13,25 @@
 {
 	height:25px;
 }
+
 .spacer20
 {
 	height:20px;
 }
+
 .spacer15
 {
 	height:15px;
 }
 
+.spacer10
+{
+	height:10px;
+}
+
 h1
 {
-	color: blue;
+	color: green;
 }
 
 h3
@@ -34,7 +41,7 @@ h3
 
 h4
 {
-	color: red;
+	color: green;
 }
 
 .fishdescription
@@ -42,8 +49,9 @@ h4
 	height: 130px;
 }
 
-#map {
-	height: 118px;
+#map 
+{
+	height: 200px;
     width: 100%;
 }
 
@@ -85,23 +93,95 @@ div.col-sm-12.venueheading h1
 {
 	margin-top: 0px;
 }
-#textarea {
+
+#textarea 
+{
 	border: none;
 	overflow: auto;
-	height: 200px;
+	height: 180px;
 	width: 570px;
 	padding : 4px;
+	cursor: pointer; cursor: hand; 
 }
 
-#wrapper {
-	border: 1px solid #CCCCCC;
+#wrapper 
+{
 	overflow: hidden;
     width: 570px;
-    height: 215px;
+    height: 200px;
 }
 
-div.col-sm-12.venuedirectionsheading h4
+div.venueheadings
 {
-	margin-top: 20px;
+	height:40px;
+    line-height:30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-size:20px;
+    font-weight:bold;
+    font-family:verdana;
+    display:block;
+    color:white;
+    display:block;
+    padding:10px;
+	background-color: lightblue;
+    border: 1px solid lightblue;
+    border-bottom:none;
+    text-align: center;	
 }
+
+div.venueinfo
+{
+	border: 2px solid lightblue;
+	border-radius: 10px;
+
+	overflow: hidden;
+
+	font-size: 15px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+div.venueratingcontent
+{
+	padding: 10px;
+
+}
+
+div.row.venueinfo
+{
+	min-height: 192px;
+}
+
+div.venuecontent
+{
+	padding: 10px;
+	min-height: 162px;
+}
+
+div.col-sm-4.signpost
+{
+text-align: center;
+}
+
+div.col-sm-4.signpost img
+{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+div.venuecontentsignpost
+{
+	padding: 10px;
+	min-height: 102px;
+}
+
+div.venuesnippetcontent
+{
+	padding: 10px;
+	min-height: 195px;
+}
+
+
 
