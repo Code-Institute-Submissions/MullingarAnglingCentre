@@ -1,4 +1,6 @@
-	/*spacers*/
+
+
+/****** spacers *******/
 .spacer100
 {
 	height:100px;
@@ -7,6 +9,10 @@
 .spacer50
 {
 	height:50px;
+}
+.spacer40
+{
+	height:45px;
 }
 
 .spacer25
@@ -29,6 +35,22 @@
 	height:10px;
 }
 
+/****** spacers *******/
+
+
+/****** Navbar ******/
+.navbar-brand.logo
+{
+	padding:0px;
+	padding-right: 20px;
+}
+
+/****** Navbar ******/
+
+/****** h1 to h5 ******/
+/*font-family: Roboto;*/
+
+
 h1
 {
 	color: green;
@@ -44,55 +66,44 @@ h4
 	color: green;
 }
 
-.fishdescription
-{
-	height: 130px;
-}
-
-#map 
-{
-	height: 200px;
-    width: 100%;
-}
-
-
-td, th 
-{
-      width: 5rem;
-      height: 2rem;
-      border: 1px solid #ccc;
-      text-align: center;
-}
-
-th 
-{
-  background: lightblue;
-  border-color: white;
-}
-
-body 
-{
-  padding: 1rem;
-  font-family: Roboto;
- /* background-image: url("../images/shutterstock_476967942.jpg");
-  background-repeat: no-repeat;*/
-  
-}
-
 p
 {
 	font-family: Roboto;
 }
 
-.table table
+p.intro
 {
-	width: 100%;	
+	font-family: Arial;
+	font-size: 18px;
 }
 
-div.col-sm-12.venueheading h1
+/****** h1 to h5 ******/
+
+
+
+/****** venue details ******/
+td, th 
 {
-	margin-top: 0px;
+	width: 5rem;
+	height: 2rem;
+	border: 1px solid #ccc;
+	text-align: center;
 }
+
+th 
+{
+	background: lightblue;
+	border-color: white;
+}
+
+
+#map 
+{
+	height: 200px;
+	width: 100%;
+}
+
+/****** venue details ******/
 
 #textarea 
 {
@@ -109,6 +120,16 @@ div.col-sm-12.venueheading h1
 	overflow: hidden;
     width: 570px;
     height: 200px;
+}
+
+.table table
+{
+	width: 100%;	
+}
+
+div.col-sm-12.venueheading h1
+{
+	margin-top: 0px;
 }
 
 div.venueheadings
@@ -134,9 +155,7 @@ div.venueinfo
 {
 	border: 2px solid lightblue;
 	border-radius: 10px;
-
 	overflow: hidden;
-
 	font-size: 15px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -145,7 +164,6 @@ div.venueinfo
 div.venueratingcontent
 {
 	padding: 10px;
-
 }
 
 div.row.venueinfo
@@ -159,24 +177,6 @@ div.venuecontent
 	min-height: 162px;
 }
 
-div.col-sm-4.signpost
-{
-text-align: center;
-}
-
-div.col-sm-4.signpost img
-{
-	display: block;
-	margin: auto;
-	width: 50%;
-}
-
-div.venuecontentsignpost
-{
-	padding: 10px;
-	min-height: 102px;
-}
-
 div.venuesnippetcontent
 {
 	padding: 10px;
@@ -184,4 +184,106 @@ div.venuesnippetcontent
 }
 
 
+/******** Types of Fish Section ********/
+div.col-sm-12.fishheading h1
+{
+	margin-top: 0px;
+}
 
+div.fishheadings
+{
+	height:40px;
+    line-height:30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-size:20px;
+    font-weight:bold;
+    font-family:verdana;
+    display:block;
+    color:white;
+    display:block;
+    padding:10px;
+	background-color: green;
+    border: 1px solid green;
+    border-bottom:none;
+    text-align: center;	
+}
+
+div.fishinfo
+{
+	border: 2px solid green;
+	border-radius: 10px;
+
+	overflow: hidden;
+
+	font-size: 15px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+div.fishcontent
+{
+	padding: 10px;
+	min-height: 180px;
+}
+
+div.row.fishinfo
+{
+	min-height: 192px;
+}
+
+/******** Types of Fish Section ********/
+
+
+/******** Local Services Section ********/
+div.col-sm-12.serviceheading h1
+{
+	margin-top: 0px;
+}
+
+div.serviceheadings
+{
+	height:40px;
+    line-height:30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-size:20px;
+    font-weight:bold;
+    font-family:verdana;
+    display:block;
+    color:white;
+    display:block;
+    padding:10px;
+	background-color: blue;
+    border: 1px solid blue;
+    border-bottom:none;
+    text-align: center;	
+}
+
+div.serviceinfo
+{
+	border: 2px solid blue;
+	border-radius: 10px;
+
+	overflow: hidden;
+
+	font-size: 15px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+div.servicecontent
+{
+	padding: 10px;
+	min-height: 180px;
+}
+
+div.row.serviceinfo
+{
+	min-height: 192px;
+}
+
+
+
+
+
+
+/******** Local Services Section ********/
