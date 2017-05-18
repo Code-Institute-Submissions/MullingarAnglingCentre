@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <meta charset="utf-8">
+   	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -10,23 +10,23 @@
 
     <title>Mullingar Angling Centre</title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    
     <!-- Custom CSS -->
-    <link href="css/half-slider.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link href=' http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href=' http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-16x16.png" sizes="16x16">
 
 </head>
 <body>
-<!-- Navigation -->
+	<!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,11 +37,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                
+                <a class="navbar-brand logo" href="index.html"><img src="images/logo.jpg" alt="" ></a>
+                
+                
+
                 <a class="navbar-brand" href="index.html">Mullingar Angling Centre</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
                     <li>
                         <a href="wheretofish.html">Where to Fish</a>
                     </li>
@@ -49,19 +57,8 @@
                         <a href="typesoffish.html">Types of Fish</a>
                     </li>
                     <li>
-                        <a href="methodsoffishing.html">Methods of Fishing</a>
+                         <a href="services.html">Local Angling Services</a>
                     </li>
-                    <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Interesting Info <span class="caret"></span></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Links</a></li>
-                            <li><a href="#">Local Angling Services</a></li>
-                            <li><a href="#">Accom</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                          </ul>
-                    </li>
-
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -73,13 +70,14 @@
 
     <!-- Page Content -->
     <div class="container">
- 		<div class ="spacer100"></div>
+ 		<div class ="spacer50"></div>
 
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
                 <h1>Where To Fish</h1>
-                <p>This guide covers the River Inny and Brosna systems, which consist of lakes and rivers, many renowned for coarse and pike fishing. Ballinafid Lake and other fisheries such as Lough Derravaragh in the system produce specimen fish. A few fisheries are wheelchair friendly i.e. Slevin's Lake and the Royal Canal is suitable with easy bank access.</p>
+                <p class="intro">There are a number of different type of locations you can fish in the Mullingar area.The below guide information covers the River Inny and Brosna systems, which consist of lakes and rivers, many renowned for coarse and pike fishing. Ballinafid Lake and other fisheries such as Lough Derravaragh in the system produce specimen fish. A few fisheries are wheelchair friendly i.e. Slevin's Lake and the Royal Canal is suitable with easy bank access.</p>
+                <p class="intro">It also covers two gem's of lakes in the Irish midlands. Both Lough Ennell and Lough Owel are second to none when its comes to pike and trout fishing. With Lough Ennell still holding the Irish record for a Brown Trout at a wapping 26lb 2oz.</p>
             </div>
         </div><!-- /.row -->
 
@@ -90,13 +88,13 @@
 				<div class="col-lg-12">
 			        <ul class="nav nav-tabs">
 			        	<li class="active">
-			        		<a href="#1" data-toggle="tab">Large Lakes</a>
+			        		<a href="#1" data-toggle="tab"><h4>Large Lakes</h4></a>
                         </li>
                         <li>
-                            <a  href="#2" data-toggle="tab">Small Lakes</a>
+                            <a  href="#2" data-toggle="tab"><h4>Small Lakes</h4></a>
                         </li>
                         <li>
-                            <a href="#3" data-toggle="tab">Rivers/Canals</a>
+                            <a href="#3" data-toggle="tab"><h4>Rivers/Canals</h4></a>
                         </li>
                     </ul>
 
@@ -106,10 +104,10 @@
 
                             <!-- Lough Ennell -->
 						    <div class="row">
-						        <div class="col-md-4">
-						            <div class ="spacer25"></div>
+						        <div class="col-md-6">
+						            
 						                <a href="#" data-toggle="modal" data-target="#ennellModal" class="thumbnail">
-						                <img class="img-responsive"src="images/venues/ennell/LoughEnnell700x300.jpg" alt="" /></a>
+						                <img class="img-responsive" src="images/venues/ennell/LoughEnnell700x300.jpg" alt="" /></a>
 
 						                <!-- Modal -->
 										<div id="ennellModal" class="modal fade" role="dialog">
@@ -119,7 +117,7 @@
 											    <div class="modal-content">
 											    	<div class="modal-header">
 											        	<button type="button" class="close" data-dismiss="modal">&times;</button>
-											        	<h3 class="modal-title">Lough Ennel</h3>
+											        	<h3 class="modal-title">Lough Ennell</h3>
 									        		</div>
 										        	<div class="modal-body">
 											        	<img class="img-responsive img-rounded" src="images/venues/ennell/LoughEnnell700x300.jpg" alt="">
@@ -128,7 +126,7 @@
 										      			<p>Lough Ennell (Irish: Loch Ainninn) is situated beside the N52 road, off the Mullingar/Kilbeggan road.[1] It is approximately 4.5 mi (7.2 km) long by 2 mi (3.2 km) wide, with an area of about 3,540 acres (14.3 km2). It has a huge area of shallow water with nearly two-thirds of its area being less than 25 feet (8 m) and almost half of it being under 10 ft (3.0 m) deep.</p>
 										      		</div>
 										      		<div class="modal-footer">
-										      		<a class="btn btn-primary" href="loughennell.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+										      		<a class="btn btn-primary" href="loughennell.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
 										        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 										      		</div>
 										   	 	</div>
@@ -138,21 +136,27 @@
 										</div><!-- Modal -->
 			            		</div>
 
-					            <div class="col-md-8">
-					                <h3>Lough Ennell</h3>
-					                <p>Lough Ennell (Irish: Loch Ainninn) is situated beside the N52 road, off the Mullingar/Kilbeggan road.[1] It is approximately 4.5 mi (7.2 km) long by 2 mi (3.2 km) wide, with an area of about 3,540 acres (14.3 km2). It has a huge area of shallow water with nearly two-thirds of its area being less than 25 feet (8 m) and almost half of it being under 10 ft (3.0 m) deep.</p>
-					                <a class="btn btn-primary" href="loughennell.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+					            <div class="col-md-6">
+									<div class="col-sm-12 venueheading">
+                                        <div class="row venueinfo">
+                                            <div class=" venueheadings">Lough Ennell</div>
+                                            <div class="venuesnippetcontent"> 
+											<p>Lough Ennell (Irish: Loch Ainninn) is situated beside the N52 road, off the Mullingar/Kilbeggan road.[1] It is approximately 4.5 mi (7.2 km) long by 2 mi (3.2 km) wide, with an area of about 3,540 acres (14.3 km2). It has a huge area of shallow water with nearly two-thirds of its area being less than 25 feet (8 m) and almost half of it being under 10 ft (3.0 m) deep.
+											<a href="loughennell.html"> Read more</a>
+											</p>
+                                            </div>
+										</div>
+									</div>
 					            </div>
 					        </div>
 					        <!-- /.row Lough Ennell-->
-
-					        <hr>
+							<hr>
+					        
 
 					        <!-- Lough Owel -->
 					        <div class="row">
-					            <div class="col-md-4">
-					            	<div class ="spacer25"></div>
-				                	<a href="#" data-toggle="modal" data-target="#owelModal" class="thumbnail">
+					            <div class="col-md-6">
+					            	<a href="#" data-toggle="modal" data-target="#owelModal" class="thumbnail">
 				                	<img class="img-responsive" src="images/venues/owel/loughowel700x300.jpg" alt="" /></a>
 
 				                	<!-- Modal -->
@@ -172,7 +176,7 @@
 										      			<p>Lough Owel (Irish: Loch Úll) is a mesotrophic lough situated north of Mullingar. It has a maximum depth of 22m.[1] Water from Lough Owel feeds the Royal Canal. Access to the lake can be gained from a carpark and pier to the south of the N4 Mullingar to Longford route.</p>
 										      		</div>
 										      		<div class="modal-footer">
-										      			<a class="btn btn-primary" href="loughowel.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+										      			<a class="btn btn-primary" href="loughowel.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
 										        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 										      		</div>
 										   	 	</div>
@@ -182,20 +186,23 @@
 										</div><!-- Modal -->
 					                
 					            </div>
-					            <div class="col-md-8">
-					                <h3>Lough Owel</h3>
-					                <p>Lough Owel (Irish: Loch Úll) is a mesotrophic lough situated north of Mullingar. It has a maximum depth of 22m.[1] Water from Lough Owel feeds the Royal Canal. Access to the lake can be gained from a carpark and pier to the south of the N4 Mullingar to Longford route.</p>
-					                <a class="btn btn-primary" href="loughowel.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+					            <div class="col-md-6">
+					            	<div class="col-sm-12 venueheading">
+                                        <div class="row venueinfo">
+                                            <div class=" venueheadings">Lough Owel</div>
+                                            <div class="venuesnippetcontent"> 
+												<p>Lough Owel (Irish: Loch Úll) is a mesotrophic lough situated north of Mullingar. It has a maximum depth of 22m.[1] Water from Lough Owel feeds the Royal Canal. Access to the lake can be gained from a carpark and pier to the south of the N4 Mullingar to Longford route.<a href="loughowel.html"> Read more</a></p>
+                                            </div>
+										</div>
+									</div>
 					            </div>
 					        </div>
 					        <!-- /.row Lough Owel-->
-
-					        <hr>
-
+							<hr>
+					        
 						        <!-- Lough Derravaragh-->
 						        <div class="row">
-						            <div class="col-md-4">
-						            	<div class ="spacer25"></div>
+						            <div class="col-md-6">
 				                		<a href="#" data-toggle="modal" data-target="#derravaraghModal" class="thumbnail">
 				                		<img class="img-responsive" src="images/venues/derravaragh/loughderravaragh700x300.jpg" alt="" /></a>
 
@@ -213,10 +220,10 @@
 											        	<img class="img-responsive img-rounded" src="images/venues/derravaragh/loughderravaragh700x300.jpg" alt="">
 										        	</div>
 										      		<div class="modal-content">
-										      			<p>Lough Derravaragh sits on the River Inny which flows from Lough Sheelin on its way to the River Shannon. Shaped somewhat like Italy, it is a popular lake for angling and other watersports. The main public area is at Donore near Multyfarnham, where there is a caravan park and shop restaurant open in summer.</p>
+										      			<p>Lough Derravaragh sits on the River Inny which flows from Lough Sheelin on its way to the River Shannon. Shaped somewhat like Italy, it is a popular lake for angling and other watersports. The main public area is at Donore near Multyfarnham, where there is a caravan park and shop restaurant which open's in the summer time.</p>
 										      		</div>
 										      		<div class="modal-footer">
-										      			<a class="btn btn-primary" href="loughderravaragh.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+										      			<a class="btn btn-primary" href="loughderravaragh.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
 										        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 										      		</div>
 										   	 	</div>
@@ -226,10 +233,15 @@
 										</div><!-- Modal -->
 						                
 						            </div>
-						            <div class="col-md-8">
-						                <h3>Lough Derravaragh</h3>
-						                <p>Lough Derravaragh sits on the River Inny which flows from Lough Sheelin on its way to the River Shannon. Shaped somewhat like Italy, it is a popular lake for angling and other watersports. The main public area is at Donore near Multyfarnham, where there is a caravan park and shop restaurant open in summer.</p>
-						                <a class="btn btn-primary" href="loughderravaragh.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+						            <div class="col-md-6">
+						            	<div class="col-sm-12 venueheading">
+	                                        <div class="row venueinfo">
+	                                            <div class=" venueheadings">Lough Derravaragh</div>
+	                                            <div class="venuesnippetcontent"> 
+													<p>Lough Derravaragh sits on the River Inny which flows from Lough Sheelin on its way to the River Shannon. Shaped somewhat like Italy, it is a popular lake for angling and other watersports. The main public area is at Donore near Multyfarnham, where there is a caravan park and shop restaurant which open's in the summer time.<a href="loughderravaragh.html"> Read more</a></p>
+	                                            </div>
+											</div>
+										</div>
 						            </div>
 						        </div>
 						        <!-- /.row -->
@@ -240,8 +252,7 @@
 
                             	<!-- Lough Patrick -->
 						        <div class="row">
-						            <div class="col-md-4">
-						            	<div class ="spacer25"></div>
+						            <div class="col-md-6">
 				                		<a href="#" data-toggle="modal" data-target="#patrickModal" class="thumbnail">
 				                		<img class="img-responsive" src="images/venues/patrick/loughpatrick700x300.jpg" alt="" /></a>
 						                
@@ -262,7 +273,7 @@
 										      			<p>This Fishery is located a few kilometres to the south east of Multyfarnham village. It is a typical Tench fishery with a muddy bottom and marginal vegetation.</p>
 										      		</div>
 										      		<div class="modal-footer">
-										      			<a class="btn btn-primary" href="loughpatrick.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+										      			<a class="btn btn-primary" href="loughpatrick.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
 										        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 										      		</div>
 										   	 	</div>
@@ -273,20 +284,24 @@
 
 						            </div>
 
-						            <div class="col-md-8">
-						                <h3>Lough Patrick</h3>
-						                <p>This Fishery is located a few kilometres to the south east of Multyfarnham village. It is a typical Tench fishery with a muddy bottom and marginal vegetation.</p>
-						                <a class="btn btn-primary" href="loughpatrick.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+						            <div class="col-md-6">
+						            	<div class="col-sm-12 venueheading">
+	                                        <div class="row venueinfo">
+	                                            <div class=" venueheadings">Lough Patrick</div>
+	                                            <div class="venuesnippetcontent"> 
+													<p>This Fishery is located a few kilometres to the south east of Multyfarnham village. It is a typical Tench fishery with a muddy bottom and marginal vegetation.<a href="loughpatrick.html"> Read more</a></p>
+	                                            </div>
+											</div>
+										</div>
 						            </div>
 						        </div>
 						        <!-- /.row -->
-
-						        <hr>
+								<hr>
+						        
 
 						        <!-- Slevin's Lake -->
 						        <div class="row">
-						            <div class="col-md-4">
-						            	<div class ="spacer25"></div>
+						            <div class="col-md-6">
 				                		<a href="#" data-toggle="modal" data-target="#slevinsModal" class="thumbnail">
 				                		<img class="img-responsive" src="images/venues/slevins/slevinslake700x300.jpg" alt="" /></a>
 
@@ -307,7 +322,7 @@
 										      			<p> Slevin's lake is approximately 40 acres in area, located very close to Mullingar town. Species include Bream and Pike predominantly. Other species present are Rudd, Roach, Perch and Hybrids and Tench </p>
 										      		</div>
 										      		<div class="modal-footer">
-										      			<a class="btn btn-primary" href="slevinslake.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+										      			<a class="btn btn-primary" href="slevinslake.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
 										        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 										      		</div>
 										   	 	</div>
@@ -317,10 +332,15 @@
 										</div><!-- Modal -->
 						              
 						            </div>
-						            <div class="col-md-8">
-						                <h3>Slevin's Lake</h3>
-						                <p>Slevin's lake is approximately 40 acres in area, located very close to Mullingar town. Species include Bream and Pike predominantly. Other species present are Rudd, Roach, Perch and Hybrids and Tench</p>
-						                <a class="btn btn-primary" href="slevinslake.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+						            <div class="col-md-6">
+						            	<div class="col-sm-12 venueheading">
+	                                        <div class="row venueinfo">
+	                                            <div class=" venueheadings">Slevin's Lake</div>
+	                                            <div class="venuesnippetcontent"> 
+													<p>Slevin's lake is approximately 40 acres in area, located very close to Mullingar town. Species include Bream and Pike predominantly. Other species present are Rudd, Roach, Perch and Hybrids and Tench.<a href="slevinslake.html"> Read more</a></p>
+	                                            </div>
+											</div>
+										</div>
 						            </div>
 						        </div>
 						        <!-- /.row -->
@@ -329,8 +349,7 @@
 
 								<!-- Ballinafid Lake -->
 						        <div class="row">
-						            <div class="col-md-4">
-						            	<div class ="spacer25"></div>
+						            <div class="col-md-6">
 				                		<a href="#" data-toggle="modal" data-target="#ballinafidModal" class="thumbnail">
 				                		<img class="img-responsive" src="images/venues/ballinafid/ballinafidlake700x300.jpg" alt="" /></a>
 
@@ -351,7 +370,7 @@
 										      			<p>Ballinafid Lake is located North of Mullingar - to the North east of Lough Owel on the Longford Road N4. This is a small lake of about 6 acres and is regarded as a good Bream and Carp fishery.</p>
 										      		</div>
 										      		<div class="modal-footer">
-										      			<a class="btn btn-primary" href="ballinafidlake.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+										      			<a class="btn btn-primary" href="ballinafidlake.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
 										        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 										      		</div>
 										   	 	</div>
@@ -362,10 +381,15 @@
 
 						                
 						            </div>
-						            <div class="col-md-8">
-						                <h3>Ballinafid Lake</h3>
-						                <p>Ballinafid Lake is located North of Mullingar - to the North east of Lough Owel on the Longford Road N4. This is a small lake of about 6 acres and is regarded as a good Bream and Carp fishery.</p>
-						                <a class="btn btn-primary" href="ballinafidlake.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+						            <div class="col-md-6">
+						            	<div class="col-sm-12 venueheading">
+	                                        <div class="row venueinfo">
+	                                            <div class=" venueheadings">Ballinafid Lake</div>
+	                                            <div class="venuesnippetcontent"> 
+													<p>Ballinafid Lake is located North of Mullingar - to the North east of Lough Owel on the Longford Road N4. This is a small lake of about 6 acres and is regarded as a good Bream and Carp fishery.<a href="ballinafidlake.html"> Read more</a></p>
+	                                            </div>
+											</div>
+										</div>
 						            </div>
 						        </div>
 						        <!-- /.row -->
@@ -376,8 +400,7 @@
 
                             	<!-- River Inny -->
 						        <div class="row">
-						            <div class="col-md-4">
-						            	<div class ="spacer25"></div>
+						            <div class="col-md-6">
 				                		<a href="#" data-toggle="modal" data-target="#innyModal" class="thumbnail">
 				                		<img class="img-responsive" src="images/venues/inny/inny700x300.jpg" alt="" /></a>
 
@@ -398,7 +421,7 @@
 										      			<p>The River Inny is over 50 km in length where you can expect very good fishing for Roach, Bream and Pike The section described here is from upstream of  Lough Derravaragh into Lough Iron and finally into Lough Ree. The River varies in depth from approximately 1.5 metres to over 3 metres in normal water levels.</p>
 										      		</div>
 										      		<div class="modal-footer">
-										      			<a class="btn btn-primary" href="riverinny.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+										      			<a class="btn btn-primary" href="riverinny.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
 										        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 										      		</div>
 										   	 	</div>
@@ -408,20 +431,23 @@
 										</div><!-- Modal -->
 
 						            </div>
-						            <div class="col-md-8">
-						                <h3>River Inny</h3>
-						                <p>The River Inny is over 50 km in length where you can expect very good fishing for Roach, Bream and Pike The section described here is from upstream of  Lough Derravaragh into Lough Iron and finally into Lough Ree. The River varies in depth from approximately 1.5 metres to over 3 metres in normal water levels.</p>
-						                <a class="btn btn-primary" href="riverinny.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+						            <div class="col-md-6">
+						            	<div class="col-sm-12 venueheading">
+	                                        <div class="row venueinfo">
+	                                            <div class=" venueheadings">River Inny</div>
+	                                            <div class="venuesnippetcontent"> 
+													<p>The River Inny is over 50 km in length where you can expect very good fishing for Roach, Bream and Pike The section described here is from upstream of  Lough Derravaragh into Lough Iron and finally into Lough Ree. The River varies in depth from approximately 1.5 metres to over 3 metres in normal water levels.<a href="riverinny.html"> Read more</a></p>
+	                                            </div>
+											</div>
+										</div>
 						            </div>
 						        </div>
 						        <!-- /.row -->
-
-						        <hr>
-
+								<hr>
+						        
 						        <!-- Royal Canal -->
 						        <div class="row">
-						            <div class="col-md-4">
-						            	<div class ="spacer25"></div>
+						            <div class="col-md-6">
 				                		<a href="#" data-toggle="modal" data-target="#canalModal" class="thumbnail">
 				                		<img class="img-responsive" src="images/venues/canal/canal700x300.jpg" alt="" /></a>
 
@@ -442,7 +468,7 @@
 										      			<p>There are coarse fish in all sections of the Canal. The most predominant species are Tench of 3lbs to 4lbs with the occasional larger fish present. There are also Bream, Perch and Pike. Noted areas around Mullingar are Kilpatrick's Bridge, Ballinea Bridge, the Harbour at Pipers Boreen. </p>
 										      		</div>
 										      		<div class="modal-footer">
-										      			<a class="btn btn-primary" href="royalcanal.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+										      			<a class="btn btn-primary" href="royalcanal.html">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
 										        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 										      		</div>
 										   	 	</div>
@@ -453,10 +479,15 @@
 	
 						               
 						            </div>
-						            <div class="col-md-8">
-						                <h3>Royal Canal</h3>
-						                <p>There are coarse fish in all sections of the Canal. The most predominant species are Tench of 3lbs to 4lbs with the occasional larger fish present. There are also Bream, Perch and Pike. Noted areas around Mullingar are Kilpatrick's Bridge, Ballinea Bridge, the Harbour at Pipers Boreen. </p>
-						                <a class="btn btn-primary" href="royalcanal.html">More Details<span class="glyphicon glyphicon-chevron-right"></span></a>
+						            <div class="col-md-6">
+						            	<div class="col-sm-12 venueheading">
+	                                        <div class="row venueinfo">
+	                                            <div class=" venueheadings">Royal Canal</div>
+	                                            <div class="venuesnippetcontent"> 
+													<p>There are coarse fish in all sections of the Canal. The most predominant species are Tench of 3lbs to 4lbs with the occasional larger fish present. There are also Bream, Perch and Pike. Noted areas around Mullingar are Kilpatrick's Bridge, Ballinea Bridge, the Harbour at Pipers Boreen.<a href="royalcanal.html"> Read more</a> </p>
+	                                            </div>
+											</div>
+										</div>
 						            </div>
 						        </div>
 						        <!-- /.row -->
@@ -469,14 +500,11 @@
 		</div>
         <!-- /.row -->
 
-
-
-
-
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
+                	<div class="spacer25"></div>
                     <p>Copyright &copy; Martin Allard 2017</p>
                 </div>
             </div>
@@ -485,10 +513,6 @@
 
     </div>
     <!-- /.container -->
-
-
-
-
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

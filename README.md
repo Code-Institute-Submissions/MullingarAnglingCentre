@@ -1,27 +1,22 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Half Slider](http://startbootstrap.com/template-overviews/half-slider/)
+# Mullingar Angling Centre
 
-[Half Slider](http://startbootstrap.com/template-overviews/half-slider/) is an HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features a full width, half page image slider header with captions.
+This project is a basic website to should the use of HTML, CSS and Javascript. It also includes Responsive Design and Image Treatments.
+The website itself is an informatio website on the different fishing venue's around my local town in the midlands of Ireland. 
+It also provides information on the local angling service's and the type of fish that can be caught into the local waters.
 
-## Getting Started
+## Built With
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/half-slider/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-half-slider.git`
-* Fork the repo
+* [Sublime](http://www.sublimetext.com/) - Code Editor.
+* [Paint](http://www.oldversion.com/windows/microsoft-paint/) - Used for image treatment.
+* [Google](https://www.google.com/chrome/browser/desktop/index.html - Web Browser.
 
-## Bugs and Issues
+## Versioning
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-half-slider/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/half-slider/).
+I use [Git]https://git-scm.com/ and github for versioning. For the versions available, see the [MullingarAnglingCentre](https://github.com/martinallard/MullingarAnglingCentre). 
 
-## Creator
+## Acknowledgments
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+* I would like to thank the following for use of some of their code
+* My inspiration comes for my love of fishing and my ambusion to teach other's to fish and for fishing not to be lost to future generations due to their inmersion into the technology world.
+* I would like to thank my family and friend's espcially my wife for unlimited support for my guest to learn to code.
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/gh-pages/LICENSE) license.

@@ -1,4 +1,19 @@
-/*spacers*/
+/*** Color Pallette ****/
+/*The color pallette is based on the image natural-palettes.png stored in the images folder.
+The idea to take colors from an image of a river with a cloudy sky and green natural enviroment around the river.
+This coincides with the natural surrounds when fishing and thats are of the aim of this website.
+*/
+
+/*** Color Pallette ****/
+
+/*** Fonts ***/
+
+/* Google font family's Roboto and Oxygen */
+
+/*** Fonts ***/
+
+
+/****** spacers *******/
 .spacer100
 {
 	height:100px;
@@ -8,100 +23,329 @@
 {
 	height:50px;
 }
+.spacer40
+{
+	height:45px;
+}
 
 .spacer25
 {
 	height:25px;
 }
+
 .spacer20
 {
 	height:20px;
 }
+
 .spacer15
 {
 	height:15px;
 }
 
-h1
+.spacer10
 {
-	color: blue;
+	height:10px;
+}
+
+/****** spacers *******/
+
+
+/************** Navbar **************/
+
+.navbar-inverse
+{
+	background-color: #274456;
+	border-color: #274456;
+}
+.navbar-brand.logo
+{
+	padding:0px;
+	padding-right: 20px;
+}
+
+/************** Navbar **************/
+
+
+/******* h1 to h5 and paragraphs *******/
+h1 
+{ 
+	font-family: 'Roboto', arial, serif; 
+	color: #1a4239;
 }
 
 h3
 {
-	color: green;
+	font-family: 'Roboto', arial, serif;
+	color: #2a6247;
 }
 
 h4
 {
-	color: red;
-}
-
-.fishdescription
-{
-	height: 130px;
-}
-
-#map {
-	height: 118px;
-    width: 100%;
-}
-
-
-td, th 
-{
-      width: 5rem;
-      height: 2rem;
-      border: 1px solid #ccc;
-      text-align: center;
-}
-
-th 
-{
-  background: lightblue;
-  border-color: white;
-}
-
-body 
-{
-  padding: 1rem;
-  font-family: Roboto;
- /* background-image: url("../images/shutterstock_476967942.jpg");
-  background-repeat: no-repeat;*/
-  
+	font-family: 'Roboto', arial, serif;
+	color: #376c5a;
 }
 
 p
 {
-	font-family: Roboto;
+	font-family: 'Oxygen';
+	font-size: 16px;
 }
 
-.table table
+p.intro
 {
-	width: 100%;	
+	font-family: 'Oxygen';
+	font-size: 16px;
+}
+
+
+/******* h1 to h5 and paragraphs *******/
+
+
+
+/*********** Venue Details *************/
+
+div.venuesnippetcontent
+{
+	padding: 10px;
+	min-height: 195px;
+}
+
+div.modal-content h3
+{
+	margin: 10px;
+}
+
+div.modal-content h4
+{
+	margin: 10px;
+}
+
+div.modal-content p
+{
+	margin: 10px;
 }
 
 div.col-sm-12.venueheading h1
 {
 	margin-top: 0px;
 }
-#textarea {
+
+div.venueinfo
+{
+	border: 2px solid #5e92aa;
+	border-radius: 10px;
+	overflow: hidden;
+	font-size: 15px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+div.row.venueinfo
+{
+	min-height: 192px;
+
+}
+
+div.venueheadings
+{
+	height:40px;
+    line-height:30px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	font-size:20px;
+    font-weight:bold;
+    font-family:verdana;
+    display:block;
+    color:white;
+    display:block;
+    padding:10px;
+	background-color: #5e92aa;
+    border: 1px solid #5e92aa;
+    border-bottom:none;
+    text-align: center;	
+}
+
+div.venuecontent
+{
+	padding: 10px;
+	min-height: 162px;
+}
+
+.wrapper 
+{
+	overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+
+.textarea 
+{
 	border: none;
 	overflow: auto;
-	height: 200px;
-	width: 570px;
+	height: 180px;
+	width: 95%
 	padding : 4px;
 }
 
-#wrapper {
-	border: 1px solid #CCCCCC;
-	overflow: hidden;
-    width: 570px;
-    height: 215px;
+
+
+/**** Rating Table ****/
+
+.venueratingcontent
+{
+	padding: 10px;
+
 }
 
-div.col-sm-12.venuedirectionsheading h4
+.venueratingcontent p.ratescale
 {
-	margin-top: 20px;
+	text-align: center;
 }
+
+table
+{
+	margin:0 auto;
+}
+
+td, th 
+{
+	width: 5rem;
+	height: 2rem;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th 
+{
+	background: lightblue;
+	border-color: white;
+}
+
+/**** Map ****/
+#map 
+{
+	height: 200px;
+	width: 100%;
+}
+
+/**** Nav Button at bottom of page ****/
+
+.col-sm-2.display
+{
+	display: inline-block;
+	
+}
+
+.col-sm-5.display
+{
+	display: inline-block;
+	
+}
+
+/*********** Venue Details *************/
+
+
+
+/******** Types of Fish Section ********/
+
+.col-sm-12.fishheading h1
+{
+	margin-top: 0px;
+}
+
+.fishheadings
+{
+	height:40px;
+    line-height:30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-size:20px;
+    font-weight:bold;
+    font-family:verdana;
+    display:block;
+    color:white;
+    display:block;
+    padding:10px;
+	background-color: #306962;
+    border: 1px solid #306962;
+    border-bottom:none;
+    text-align: center;	
+}
+
+.fishinfo
+{
+	border: 2px solid #306962;
+	border-radius: 10px;
+
+	overflow: hidden;
+
+	font-size: 15px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.fishcontent
+{
+	padding: 10px;
+	min-height: 170px;
+}
+
+.row.fishinfo
+{
+	min-height: 192px;
+}
+
+/******** Types of Fish Section ********/
+
+
+/******** Local Services Section ********/
+.col-sm-12.serviceheading h1
+{
+	margin-top: 0px;
+}
+
+.serviceheadings
+{
+	height:40px;
+    line-height:30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-size:20px;
+    font-weight:bold;
+    font-family:verdana;
+    display:block;
+    color:white;
+    display:block;
+    padding:10px;
+	background-color: #28526b;
+    border: 1px solid #28526b;
+    border-bottom:none;
+    text-align: center;	
+}
+
+.serviceinfo
+{
+	border: 2px solid #28526b;
+	border-radius: 10px;
+
+	overflow: hidden;
+
+	font-size: 15px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.servicecontent
+{
+	padding: 10px;
+	min-height: 180px;
+}
+
+.row.serviceinfo
+{
+	min-height: 192px;
+}
+
+/******** Local Services Section ********/
 

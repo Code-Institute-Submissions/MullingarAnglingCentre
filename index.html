@@ -1,158 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <title>Mullingar Angling Centre</title>
 
-    <title>Mullingar Angling Centre</title>
+        <!-- CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/half-slider.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        
+        <!-- Fonts -->
+        <link href=' http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href=' http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="images/favicomatic/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="images/favicomatic/favicon-16x16.png" sizes="16x16">
 
-    <!-- Custom CSS -->
-    <link href="css/half-slider.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    </head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="navbar-brand logo" href="index.html"><img src="images/logo.jpg" alt=""></a>
+                    
+                    
 
-</head>
+                    <a class="navbar-brand" href="index.html">Mullingar Angling Centre</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="wheretofish.html">Where to Fish</a>
+                        </li>
+                        <li>
+                            <a href="typesoffish.html">Types of Fish</a>
+                        </li>
+                        <li>
+                             <a href="services.html">Local Angling Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
 
-<body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Half Page Image Background Carousel Header -->
+        <header id="myCarousel" class="carousel slide">
+            <!-- Wrapper for Slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <!-- Set the first background image using inline CSS below. -->
+                    <div class="fill" style='background-image:url("images/hero/hero3.jpg")'></div>              
+                </div>
+                <div class="item">
+                    <!-- Set the second background image using inline CSS below. -->
+                    <div class="fill" style='background-image:url("images/hero/hero2.jpg")'></div> 
+                    <div class="fill" style='background-image:url("images/hero/hero1.jpg")'></div>                
+                </div>
+                <div class="item">
+                    <!-- Set the third background image using inline CSS below. -->
+                    <div class="fill" style='background-image:url("images/hero/hero1.jpg")'></div>                 
+                </div>
+                <div class="item">
+                    <!-- Set the forth background image using inline CSS below. -->
+                    <div class="fill" style='background-image:url("images/hero/hero4.jpg")'></div>                
+                </div>
+            </div>        
+        </header>
+
+        <!-- Page Content -->
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Mullingar Angling Centre</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="wheretofish.html">Where to Fish</a>
-                    </li>
-                    <li>
-                        <a href="typesoffish.html">Type of Fish</a>
-                    </li>
-                    <li>
-                        <a href="methodsoffishing.html">Methods of Fishing</a>
-                    </li>
-                    <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Interesting Info <span class="caret"></span></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Links</a></li>
-                            <li><a href="#">Local Angling Services</a></li>
-                            <li><a href="#">Accom</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                          </ul>
-                    </li>
-
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Half Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-
-    </header>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Mullingar Angling Centre</h1>
-                <p>Mullingar is a very busy and well established major Game and Coarse angling centre located in Co Westmeath in the Irish Midlands - and lies about 80 kms to the north west of Dublin. It is surrounded by some of the countries prime angling waters, including the Midland Trout Loughs. 
-
-Multyfarnham village which is a neighbouring centre located 13 kms North of Mullingar in Co Westmeath  and lies about 90 kms from Dublin. This is regarded as a self catering holiday centre suitable for angling tourists. </p>
-            </div>
-        </div>
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
+            <div class ="spacer15"></div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Martin Allard 2017</p>
+                    <h1>Mullingar Angling Centre</h1>
+                    <p class="intro">Hello and welcome to Mullingar Angling Centre!!</p> 
+                    <p class="intro">For some time now, Mullingar is a well established major Game and Coarse angling centre located in Co Westmeath in the Irish Midlands - and lies about 80 kms to the north west of Dublin. 
+                    Multyfarnham village which is a neighbouring centre located 13 kms North of Mullingar in Co Westmeath and lies about 90 kms from Dublin. This is regarded as a self catering holiday centre suitable for angling tourists.</p>
+                    <p class="intro">The purpose of this website is to provide you with information on the local lakes, river and canal's around the Mullingar area. Mullingar is surrounded by some of the countries prime angling waters, including the Midland Trout Loughs.We also have a section on the type's of fish that anglers can catch and some interesting facts on each species. We even include details on some local angling service's.</p>
                 </div>
-            </div>
-            <!-- /.row -->
-        </footer>
+            </div>       
 
-    </div>
-    <!-- /.container -->
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="spacer25"></div>
+                        <p>Copyright &copy; Martin Allard 2017</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        </div>
+        <!-- /.container -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script  type="text/javascript" src="js/carousel.js"></script>
-    
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
-</body>
+        <!-- Script to Activate the Carousel -->
+        <script  type="text/javascript" src="js/carousel.js"></script>    
+
+    </body> 
 
 </html>
