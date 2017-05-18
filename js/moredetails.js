@@ -1,5 +1,6 @@
 
-	var textareaWidth = document.getElementById("textarea").scrollWidth;
+	/*var textareaWidth = document.getElementsByClassName("textarea").scrollWidth;
 
 	// width of our wrapper equals width of the inner part of the textarea
-	document.getElementById("wrapper").style.width = textareaWidth + 'px';
+	document.getElementsByClassName("wrapper").style.width = textareaWidth + '%';
+*/
