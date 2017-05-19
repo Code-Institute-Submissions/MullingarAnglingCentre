@@ -1,17 +1,14 @@
 # Mullingar Angling Centre
 
-This project is an information website on the different fishing venue's around my local town in the midlands of Ireland. 
-It also provides information on the local angling service's and the type of fish that can be caught into the local waters.
-
 This project is a basic website to show the use of HTML, CSS and Javascript Libraries . It also includes Responsive Design and Image treatment.
-
+The website itself is an information website on the different fishing venue's around my local town in the midlands of Ireland. 
+It also provides information on the local angling service's and the type of fish that can be caught into the local waters.
 
 ## Built With
 
 * [Sublime](http://www.sublimetext.com/) - Code Editor.
 * [Paint](http://www.oldversion.com/windows/microsoft-paint/) - Used for image treatment.
 * [Google](https://www.google.com/chrome/browser/desktop/index.html) - Web Browser.
-
 
 ## Versioning
 
@@ -48,6 +45,7 @@ http://justcreative.com/2015/05/05/15-stunning-font-combinations-for-your-inspir
 
 
 ## Acknowledgment
+
 
 * I would like to thank the following for use of some of their code startbootstrap.com and developers.google.com
 * I would like to thank the following for use of some of their content fishinginireland.info and infowing.ie
