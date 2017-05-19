@@ -1,8 +1,10 @@
 # Mullingar Angling Centre
 
-This project is a basic website to should the use of HTML, CSS and Javascript. It also includes Responsive Design and Image Treatments.
-The website itself is an information website on the different fishing venue's around my local town in the midlands of Ireland. 
+This project is an information website on the different fishing venue's around my local town in the midlands of Ireland. 
 It also provides information on the local angling service's and the type of fish that can be caught into the local waters.
+
+This project is a basic website to show the use of HTML, CSS and Javascript Libraries . It also includes Responsive Design and Image treatment.
+
 
 ## Built With
 
@@ -10,12 +12,19 @@ It also provides information on the local angling service's and the type of fish
 * [Paint](http://www.oldversion.com/windows/microsoft-paint/) - Used for image treatment.
 * [Google](https://www.google.com/chrome/browser/desktop/index.html) - Web Browser.
 
+
 ## Versioning
 
-I use [Git]https://git-scm.com/ and github for versioning. For the versions available, please see [MullingarAnglingCentre](https://github.com/martinallard/MullingarAnglingCentre). 
+I use [Git]https://git-scm.com/ and github for versioning. For the versions available, please see [MullingarAnglingCentre](https://github.com/martinallard/MullingarAnglingCentre) 
 
 ## Testing
 * My main test tool was using inspector in Google Chrome web browser.
+* Please check TestCases.xlsx for testing of the project. This can be seen on the github repro for this project (https://github.com/martinallard/MullingarAnglingCentre)
+
+
+# Deployment
+Mullingar Angling Centre is currently deployed to github pages, please see (https://martinallard.github.io/MullingarAnglingCentre/index.html)
+
 
 ## Technology Used
 
@@ -31,10 +40,12 @@ The color palette is based on the image natural-palettes.png stored in the image
 The idea was to take colors from an image of a river with a cloudy sky and green natural environment around the river.
 This coincides with the natural surroundings when fishing and is are of the aim of this website.
 
+
 ## Google Font Family's Roboto and Oxygen
 
 I picked Google font family's Roboto and Oxygen backed on a article i read on justcreative.com. Link below and Google Font Combinations image chart saved in images folder as Google Font Combinations.jpg.
 http://justcreative.com/2015/05/05/15-stunning-font-combinations-for-your-inspiration/
+
 
 ## Acknowledgment
 
